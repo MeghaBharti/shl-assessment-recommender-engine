@@ -1,4 +1,4 @@
-# SHL Assessment Recommender System
+# SHL Assessment Recommender Engine
 
 ## **Project Overview**
 The SHL Assessment Recommender System simplifies the process of finding relevant assessments for hiring managers. It leverages advanced AI techniques to recommend the most suitable SHL assessments based on natural language queries or job descriptions. The system provides key details about each assessment, including its name, URL, duration, test type, and support for remote testing and adaptive/IRT features.
