@@ -49,9 +49,15 @@ class SHLAssessmentAnalyzer:
         )
         return text_splitter.create_documents(self.df['combined_text'].tolist())
 
+
     def create_vector_store(self):
+        # embeddings = HuggingFaceEmbeddings(
+        #     model_name="sentence-transformers/all-mpnet-base-v2"
+        # )
         embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-mpnet-base-v2"
+        model_name="sentence-transformers/all-MiniLM-L6-v2",  # Smaller model
+        model_kwargs={'device': 'cpu'},  # Force CPU usage
+        cache_folder="./model_cache"  # Enable model caching
         )
         return FAISS.from_documents(self.documents, embeddings)
 
