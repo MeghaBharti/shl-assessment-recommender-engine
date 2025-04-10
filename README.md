@@ -104,7 +104,7 @@ The SHL Assessment Recommender System simplifies the process of finding relevant
 
 ## **Deployment Links**
 1. [Streamlit Demo](https://shl-assessment-recommender-engine-ue5x9muxspqrhxpxhwisxh.streamlit.app/)
-2. [Api endpoint](https://shl-assessment-recommender-engine.onrender.com/)
+2. [Api endpoint](https://shl-assessment-recommender-engine.onrender.com)
 3. [GitHub Repository](https://github.com/MeghaBharti/shl-assessment-recommender-engine)
 
 ---
