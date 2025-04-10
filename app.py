@@ -112,8 +112,8 @@ if st.button("🔎 Get Recommendation"):
                         current_assessment['name'] = line.replace('- Assessment Name:', '').strip()
                     elif line.startswith('- Test Type:'):
                         current_assessment['test_type'] = line.replace('- Test Type:', '').strip()
-                    elif line.startswith('- Key Features:'):
-                        current_assessment['features'] = line.replace('- Key Features:', '').strip()
+                    elif line.startswith('- Description:'):
+                        current_assessment["description"] = line.replace('- Description:', '').strip()
                     elif line.startswith('- Duration:'):
                         current_assessment['duration'] = line.replace('- Duration:', '').strip()
                     elif line.startswith('- Remote Testing Support:'):
