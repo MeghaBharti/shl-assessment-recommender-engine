@@ -69,7 +69,7 @@ class SHLAssessmentAnalyzer:
         Answer in this format:
         - Assessment Name: [name]
         - Test Type: [type]
-        - Key Features: [2-3 key points]
+        - Description: [detailed description]
         - Duration: [length]
         - Remote Testing Support: [Yes/No]
         - Adaptive/IRT Support: [Yes/No]
